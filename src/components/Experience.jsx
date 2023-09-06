@@ -3,9 +3,9 @@ import html from "../assets/portfolio/html.png";
 import css from "../assets/portfolio/css.png";
 import javascript from "../assets/portfolio/javascript.png";
 import reactImage from "../assets/portfolio/react.png";
-import nextjs from "../assets/portfolio/nextjs.png";
+import nuxtJs from "../assets/portfolio/nuxtjs.png";
 import github from "../assets/portfolio/github.png";
-import graphql from "../assets/portfolio/graphql.png";
+import mySql from "../assets/portfolio/mysql-logo.png";
 import tailwind from "../assets/portfolio/tailwind.png";
 export const Experience = () => {
   const techs = [
@@ -41,15 +41,15 @@ export const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next Js",
+      src: nuxtJs,
+      title: "Nuxt Js",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQl",
-      style: "shadow-pink-400",
+      src: mySql,
+      title: "mySql",
+      style: "shadow-orange-400",
     },
     {
       id: 8,
@@ -68,7 +68,7 @@ export const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">These are the technologies I've learn with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

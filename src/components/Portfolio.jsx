@@ -1,36 +1,36 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reacSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import productCard from "../assets/portfolio/productCard.png";
+import profileCard from "../assets/portfolio/profileCard.png";
+import portoGallery from "../assets/portfolio/portoGallery.png";
+import museumCandy from "../assets/portfolio/museumCandy.png";
+import suitJawa from "../assets/portfolio/suitJawa.png";
+import linktreeMini from "../assets/portfolio/linktreeMini.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: productCard,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: museumCandy,
     },
     {
       id: 3,
-      src: navbar,
+      src: portoGallery,
     },
     {
       id: 4,
-      src: reacSmooth,
+      src: suitJawa,
     },
     {
       id: 5,
-      src: installNode,
+      src: profileCard,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: linktreeMini,
     },
   ];
   return (
