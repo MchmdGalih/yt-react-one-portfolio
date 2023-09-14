@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed">
+    <nav className="flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Galih</h1>
       </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
           <li className="px-4 cursor-pointer capitalize py-6 text-4xl">home</li>
         </ul>
       )}
-    </div>
+    </nav>
   );
 };
 

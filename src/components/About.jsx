@@ -2,9 +2,9 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div
+    <section
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black p-4 text-white "
+      className="h-auto lg:h-screen lg:py-0 py-4 w-full bg-gradient-to-b from-gray-800 to-black p-4 text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -12,30 +12,30 @@ export const About = () => {
             About
           </p>
         </div>
-
-        <p className="text-xl mt-10">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut soluta
-          sequi maiores vitae? Aspernatur fuga quibusdam dolore harum eligendi
-          ex sit expedita, dolorem, fugit odio at! Facere cupiditate illum,
-          omnis, modi voluptate, delectus voluptatum reiciendis maxime aut
-          deleniti corrupti distinctio veritatis libero nulla placeat! Odit
-          veritatis aut veniam fugit aperiam, dolorem mollitia voluptatem harum
-          nihil. Doloribus animi quam eligendi cumque.
+        <p className="text-xl mt-3">
+          Hello, my name is Mochamad Galih Sulistio Pratama. I am a graduate of
+          SMK Pasundan 2 Bandung who has great passion in the world of
+          information technology. I have three years of valuable experience
+          working at PT Gajah Angkasa Perkasa, where I was involved in various
+          IT projects that helped me expand my knowledge and skills.
         </p>
-
         <br />
-
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
-          deserunt! Consequatur quasi excepturi labore iusto obcaecati, corrupti
-          ipsam! Tempore ipsum, at ad quaerat ex aspernatur reprehenderit
-          perferendis excepturi magnam consequuntur sed omnis numquam iusto,
-          minima aperiam cumque veritatis. Qui eum vero, rerum repellat iusto
-          corporis atque aut distinctio. Unde placeat doloremque cumque tempore,
-          necessitatibus vel expedita. Soluta earum minima exercitationem, hic
-          libero necessitatibus est, totam debitis recusandae officia et ipsam?
+          I am a technology lover who is always hungry for new knowledge. I have
+          participated in Bootcamp activities at Alkademi Learning to Become a
+          Full Stack Developer. I believe that learning is a lifelong process,
+          and I always strive to improve my skills in web development.
+          Currently, I am committed to continuously developing my skills in
+          this.
+        </p>
+        <br />
+        <p className="text-xl">
+          Thank you for getting to know me better. I am always open to new
+          opportunities, collaborative projects, and the chance to continue
+          growing in my career in the IT world. Feel free to contact me if you
+          would like to discuss or work together on an exciting IT project!
         </p>
       </div>
-    </div>
+    </section>
   );
 };

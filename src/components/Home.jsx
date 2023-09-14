@@ -2,24 +2,23 @@ import React from "react";
 import Avatar from "../assets/portfolio/avatar.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Animation } from "./AnimationH";
+
 const Home = () => {
   return (
-    <div
+    <section
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white"
+      className="h-auto lg:h-screen lg:py-0 pt-[110px] pb-4 w-full bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full ">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white ">
-            I'm a Front End Developer
-          </h2>
+        <div className="flex flex-col justify-center h-full md:w-1/2 w-full">
+          <Animation />
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-            voluptatibus veritatis debitis ex explicabo nobis quo commodi
-            dolores aliquid. Vero quaerat sunt a magni consectetur earum ea
-            alias sed consequuntur!
+            Every line of code is an adventure. Right now, I'm on the adventure
+            of learning frontend programming and don't let your fears detemine
+            your future.
           </p>
-          <div>
+          <div className="mb-3 justify-center">
             <Link
               to="portfolio"
               smooth
@@ -37,11 +36,11 @@ const Home = () => {
           <img
             src={Avatar}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto  md:w-full"
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

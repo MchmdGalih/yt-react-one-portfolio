@@ -1,42 +1,11 @@
 import React from "react";
-import productCard from "../assets/portfolio/productCard.png";
-import profileCard from "../assets/portfolio/profileCard.png";
-import portoGallery from "../assets/portfolio/portoGallery.png";
-import museumCandy from "../assets/portfolio/museumCandy.png";
-import suitJawa from "../assets/portfolio/suitJawa.png";
-import linktreeMini from "../assets/portfolio/linktreeMini.png";
+import { portfolios } from "../commont/const/portfolioList";
 
 const Portfolio = () => {
-  const portfolios = [
-    {
-      id: 1,
-      src: productCard,
-    },
-    {
-      id: 2,
-      src: museumCandy,
-    },
-    {
-      id: 3,
-      src: portoGallery,
-    },
-    {
-      id: 4,
-      src: suitJawa,
-    },
-    {
-      id: 5,
-      src: profileCard,
-    },
-    {
-      id: 6,
-      src: linktreeMini,
-    },
-  ];
   return (
-    <div
+    <section
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="h-auto lg:h-screen lg:py-0 py-4 bg-gradient-to-b from-black to-gray-800 w-full text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -66,7 +35,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
