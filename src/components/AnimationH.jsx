@@ -22,3 +22,5 @@ export const Animation = () => {
     </h2>
   );
 };
+
+export default Animation;
