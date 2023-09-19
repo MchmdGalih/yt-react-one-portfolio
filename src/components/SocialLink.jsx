@@ -12,7 +12,7 @@ export const SocialLink = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/mochamad-galih-sulistio-pratama-2766b4253",
       style: "rounded-tr-md",
     },
     {
