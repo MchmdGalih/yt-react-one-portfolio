@@ -24,17 +24,29 @@ const Home = () => {
           </p>
           <ul className="flex gap-2 mb-4">
             <li>
-              <a href="https://github.com/MchmdGalih">
+              <a
+                href="https://github.com/MchmdGalih"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub size={30} />
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/mochamad-galih-sulistio-pratama-2766b4253/">
+              <a
+                href="https://linkedin.com/in/mochamad-galih-sulistio-pratama-2766b4253/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin size={30} />
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/_mchmdgalih/">
+              <a
+                href="https://instagram.com/_mchmdgalih/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaInstagram size={30} />
               </a>
             </li>
