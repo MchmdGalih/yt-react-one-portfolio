@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed">
+    <nav className="flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed z-50">
       <div>
         <h1 className="text-5xl font-signature ml-2">Galih</h1>
       </div>
@@ -70,7 +70,6 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <li className="px-4 cursor-pointer capitalize py-6 text-4xl">home</li>
         </ul>
       )}
     </nav>

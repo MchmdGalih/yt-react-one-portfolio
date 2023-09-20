@@ -6,13 +6,13 @@ export const About = () => {
       name="about"
       className="h-auto lg:h-screen lg:py-0 py-4 w-full bg-gradient-to-b from-gray-800 to-black p-4 text-white "
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div  className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p data-aos='fade-up'  className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-3">
+        <p data-aos='fade-up' data-aos-delay='500' className="text-xl mt-3">
           Hello, my name is Mochamad Galih Sulistio Pratama. I am a graduate of
           SMK Pasundan 2 Bandung who has great passion in the world of
           information technology. I have three years of valuable experience
@@ -20,7 +20,7 @@ export const About = () => {
           IT projects that helped me expand my knowledge and skills.
         </p>
         <br />
-        <p className="text-xl">
+        <p data-aos='fade-up' data-aos-delay='600' className="text-xl">
           I am a technology lover who is always hungry for new knowledge. I have
           participated in Bootcamp activities at Alkademi Learning to Become a
           Full Stack Developer. I believe that learning is a lifelong process,
@@ -29,7 +29,7 @@ export const About = () => {
           this.
         </p>
         <br />
-        <p className="text-xl">
+        <p data-aos='fade-up' data-aos-delay='700' className="text-xl">
           Thank you for getting to know me better. I am always open to new
           opportunities, collaborative projects, and the chance to continue
           growing in my career in the IT world. Feel free to contact me if you

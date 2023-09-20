@@ -11,11 +11,11 @@ const Home = () => {
       className="h-auto lg:h-screen lg:py-0 pt-[110px] pb-4 w-full bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full md:w-1/2 w-full">
+        <div data-aos='fade-right' className="flex flex-col justify-center h-full md:w-1/2 w-full">
           <Animation />
           <p className="text-gray-500 py-4 max-w-md">
             Every line of code is an adventure. Right now, I'm on the adventure
-            of learning frontend programming and don't let your fears detemine
+            of learning frontend programming and don't let your fears determine
             your future.
           </p>
           <div className="mb-3 justify-center">
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img
+          <img data-aos='fade-left'
             src={Avatar}
             alt="my profile"
             className="rounded-2xl mx-auto  md:w-full"
