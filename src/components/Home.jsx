@@ -3,6 +3,7 @@ import Avatar from "../assets/portfolio/avatar.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Animation } from "./AnimationH";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -11,13 +12,33 @@ const Home = () => {
       className="h-auto lg:h-screen lg:py-0 pt-[110px] pb-4 w-full bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div data-aos='fade-right' className="flex flex-col justify-center h-full md:w-1/2 w-full">
+        <div
+          data-aos="fade-right"
+          className="flex flex-col justify-center h-full md:w-1/2 w-full"
+        >
           <Animation />
           <p className="text-gray-500 py-4 max-w-md">
             Every line of code is an adventure. Right now, I'm on the adventure
             of learning frontend programming and don't let your fears determine
             your future.
           </p>
+          <ul className="flex gap-2 mb-4">
+            <li>
+              <a href="https://github.com/MchmdGalih">
+                <FaGithub size={30} />
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/mochamad-galih-sulistio-pratama-2766b4253/">
+                <FaLinkedin size={30} />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/_mchmdgalih/">
+                <FaInstagram size={30} />
+              </a>
+            </li>
+          </ul>
           <div className="mb-3 justify-center">
             <Link
               to="portfolio"
@@ -33,7 +54,8 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img data-aos='fade-left'
+          <img
+            data-aos="fade-left"
             src={Avatar}
             alt="my profile"
             className="rounded-2xl mx-auto  md:w-full"
