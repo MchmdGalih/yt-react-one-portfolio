@@ -1,5 +1,5 @@
 import React from "react";
-import {links} from '../commont/const/socialLink'
+import { links } from "../commont/const/socialLink";
 
 export const SocialLink = () => {
   return (

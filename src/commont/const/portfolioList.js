@@ -1,6 +1,6 @@
 import todoApps from "../../assets/portfolio/todoapps.png";
-import webResponsif from "../../assets/portfolio/webResponsif.png";
-import museumOfCandy from "../../assets/portfolio/museumOfCandy.png";
+import movieLix from "../../assets/portfolio/movielix.png";
+import noteApps from "../../assets/portfolio/note-apps.png";
 
 export const portfolios = [
   {
@@ -9,10 +9,10 @@ export const portfolios = [
   },
   {
     id: 2,
-    src: museumOfCandy,
+    src: movieLix,
   },
   {
     id: 3,
-    src: webResponsif,
+    src: noteApps,
   },
 ];
